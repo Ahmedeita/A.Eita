@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/numhour"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:text="00"
+        android:layout_marginStart="9dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tasktxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empty"
+        android:textSize="25sp"/>
+</LinearLayout>
